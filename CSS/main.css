@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family:"poppins"
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Josefin Sans"
+}
+
+.wrapper{
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+}
+
+.header{
+background-image: linear-gradient(120deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(344deg 0% 90%) 3%,
+  hsl(344deg 0% 80%) 7%,
+  hsl(344deg 0% 70%) 13%,
+  hsl(0deg 4% 61%) 22%,
+  hsl(359deg 16% 55%) 37%,
+  hsl(357deg 27% 47%) 57%,
+  hsl(354deg 46% 38%) 71%,
+  hsl(345deg 67% 30%) 80%,
+  hsl(335deg 75% 24%) 86%,
+  hsl(326deg 81% 18%) 91%,
+  hsl(315deg 82% 14%) 94%,
+  hsl(311deg 93% 11%) 96%,
+  hsl(312deg 100% 9%) 98%,
+  hsl(314deg 100% 8%) 99%,
+  hsl(0deg 0% 0%) 100%
+);
+	padding: 12px 0px;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.logo{
+	display:flex;
+	justify-content:center;
+}
+.logo img{
+	width: 120px;
+}
+.nav ul{
+	list-style: none;
+	
+}
+.nav ul li{
+	padding: 20px 30px;
+/*
+	margin-left:6px;
+	margin-right:6px;
+*/
+	transition-duration:0.5s;
+	border-bottom:0px solid white;
+}
+.nav ul li a{
+	text-decoration: none;
+	color:white;
+	transition-duration:0.5s;
+}
+.nav ul li:hover a{
+	font-size:20px;
+	padding: 20px 30px;
+	color:#FFC07A;
+	border-bottom:1px solid #FFC07A;
+}
+.nav ul li ion-icon:hover a{
+	font-size:50px;
+	padding: 20px 40px;
+	text-decoration: none;
+	color:#FFC07A;
+}
+/*HEADER^^^^^^^^^^^*/
+
+
+/*1stBANNERvvvvvvv*/
+.sean{position:relative;}
+
+.seanblur{
+	color:white;
+	font-size:45px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	
+	z-index:2;
+	position:absolute;
+	
+	width:2000px;
+	height:900px;
+	overflow:hidden;
+	
+	visibility: visible;
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+.seanblur h1{
+position:absolute;	
+}
+.seanblur img{
+	width:100%;
+}
+
+.sean-text{
+	padding:28px;
+	background:rgba(118,118,118,0.65);
+	width:940px;
+	height:530px;
+	position:absolute;
+	display:flex;
+	flex-wrap:wrap;
+}
+.seantextpos{
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+	position:absolute;
+	right:940px;
+}
+.seanimg{
+	color:white;
+	font-size:30px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	
+	z-index:1;
+	position:absolute;
+	
+	width:2000px;
+	height:900px;
+	overflow:hidden;
+	
+	
+	transition-duration: 0,3s;
+}
+
+.seanimg h4 {
+	letter-spacing: 2px;
+	padding:8px;
+	padding-top:18px;
+}
+	
+.seanimg i{
+padding:0px 36px;
+font-weight:200;
+}
+
+#Seanstatement{
+	font-style:normal;
+}
+
+.seanimg img{
+width:100%;	}
+
+.seanblur:hover {
+	opacity:0;
+	visibility: hidden;}
+/*1stBANNER^^^^^^^*/
+
+
+/*2NDBANNERvvvvvvvv*/
+.main2{
+	top:900px;
+	position:relative;
+}
+/*decorcircle*/
+.jap-circle{
+	opacity: 0.5;
+	left:200px;
+	top:100px;
+	position:absolute;
+	height:700px;
+	width:700px;
+	filter:drop-shadow(10px 35px 15px #171717);
+}
+.red-circle{
+	
+	border-radius:50% ;
+	background:rgba(167,30,29,1.00);
+	position:absolute;
+	height:650px;
+	width:650px;
+	z-index:2;
+}
+.white-circle{
+	top:8px;
+	left:8px;
+	border-radius:50% ;
+	background:white;
+	position:absolute;
+	height:650px;
+	width:650px;
+	z-index:1;
+}
+/*creator-of-the-month*/
+
+.main2-img{
+	
+	display:flex;
+	height:1050px;
+	padding:160px 0px;
+	background-image:url("../IMG/joji 2nd banner IMG.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: top;
+	transition-duration:100s;
+}
+.main2-img:hover{
+	background-position: bottom;
+	
+}
+#headerbg{
+	background:rgba(103,103,103,0.25);
+	filter:drop-shadow(-20px 30px 12px #171717);
+}
+.contentbann2r{color:white;
+	padding:12px;
+}
+.contentbann2r h2{
+	margin-top:50px;
+	font-size:38px
+}
+.contentbann2r h1{
+	margin: 25px 0px 0px;; 
+	font-size:130px;
+}
+.contentbann2r p{
+	margin:10px 0 80px 0;
+	font-weight: 200;
+}
+.headerbann2r{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50px;
+	width:150px;
+	background:rgba(156,0,2,0.60);
+	margin-bottom:50px;
+	transition-duration:0.3s;
+}
+.headerbann2r:hover{
+	background:rgba(156,0,2,1);
+	height:55px;
+	width:155px;
+	
+}
+.contentbann2r a{
+	text-decoration: none;
+	color:white;
+	
+}
+/*2NDBANNER^^^^^^^^*/
+
+
+/*3RDBANNERvvvvvvvv*/
+
+.main3{
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	top:900px;
+}
+.main3-img{
+	display:flex;
+	flex-wrap:wrap;
+	height:1150px;
+	padding:160px 0px;
+	background-image:url("../IMG/pink ssn the finale p14.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: right;
+	transition-duration:150s;
+}
+
+#titleban3r{
+	font-size:50px;
+	padding:12px;
+	display:flex;
+	justify-content: center;
+	align-items:flex-start;
+	color:antiquewhite;
+}
+
+#textban3r{
+	text-align: center;
+	font-weight: 200;
+	font-size:20px;
+	padding-bottom:24px;
+	display:flex;
+	justify-content: center;
+	align-items:flex-start;
+	color:antiquewhite;
+	margin-bottom:24px;
+}
+.main3-img:hover{
+	background-position: left;
+}
+.card{
+	display:flex;
+	flex-wrap:wrap;
+	margin:8px;
+	height:100%;
+	width:95%;
+	background:rgba(0,0,0,0.6);
+	overflow:hidden;
+	filter:drop-shadow(0px 15px 12px #171717);
+	transition-duration: 0.3s;
+	border:0px solid;
+}
+.card:hover{
+	transform:scale(110%);
+}
+.image-card{
+	display:flex;
+	position:relative;
+	right:40px;
+	width: 200px;
+	
+}
+
+.image-card img{
+	height:200px}
+
+.contentbox{
+	padding:32px 24px;
+	color:antiquewhite
+}
+.contentbox h2{
+	text-align:left;
+	margin-bottom:24px;
+	
+}
+.contentbox p{
+	text-align:left;
+	font-weight:100;
+	margin-bottom:24px;
+	
+}
+.stats ul{
+	padding:12px;
+	text-align: center;
+	list-style: none;
+}
+.stats ul li span{
+	font-weight:200;
+	letter-spacing: 1px;
+}
+.ban3rbutton a{
+	text-decoration: none;
+	color:white;}
+.ban3rbutton{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50px;
+	width:150px;
+	background:rgba(156,0,2,0.60);
+	margin:24px 24px 0px 24px;
+	transition-duration:0.3s;
+}
+.ban3rbutton:hover{
+	background:rgba(156,0,2,1);
+	height:60px;
+	width:160px;
+	box-shadow: 0px 0px 40px -3px #fff;}
+/*3RDBANNER^^^^^^^^*/
+/*4THBANNERvvvvvvvv*/
+
+.main4{
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	top:900px;
+}
+.main4-img{
+	display:flex;
+	flex-wrap:wrap;
+	height:950px;
+	padding:160px 0px;
+	background-image:url("../IMG/gradient bg cb .png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: left;
+}
+
+
+.main-album{
+	width:450px;
+	overflow:hidden;
+}
+.main-album img{
+	width:100%;
+}
+
+#titleban4r{
+	width:450px;
+	text-align:center;
+	font-size:40px;
+	padding:12px;
+	display:flex;
+	align-items:flex-start;
+	color:antiquewhite;
+}
+
+#textban4r{
+	width:450px;
+	text-align: center;
+	font-weight: 200;
+	font-size:17px;
+	display:flex;
+	justify-content: center;
+	align-items:flex-start;
+	color:antiquewhite;
+}
+.ban4rtitleright{
+	color:antiquewhite;
+}
+.ban4rtitleright h1{
+	font-size:50px;
+	margin-bottom:3px;
+}
+.ban4rtitleright p{
+font-weight:200;
+font-size:18px;
+margin-bottom:15px;
+}
+.covercontainer{
+	margin:52px 0;
+	transition-duration:0.3s;
+}
+.cover{
+	width:125px;
+}
+.cover img{
+	width:100%;
+}
+.covertext{
+	display:flex;
+	justify-content: center;
+	color:antiquewhite;
+}
+.covertext h1{
+	text-align:center;
+	font-size:18px;
+	font-weight:500;
+}
+
+.covercontainer:hover{
+	transform:scale(125%);
+	
+}
+#oy{
+	padding-top:17px
+}
+.idwwmt{
+	
+	display:flex;
+	justify-content: center;
+	color:antiquewhite;
+}
+.idwwmt h1{
+	text-align:center;
+	font-size:17px;
+	font-weight:500;
+}
+/*4THBANNER^^^^^^^^*/
+/*footervvvvvvvvvvv*/
+
+.footer{
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	top:900px;
+}
+.footerbg{
+	display:flex;
+	flex-wrap:wrap;
+	padding:50px 0px;
+	background-image: linear-gradient(350deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(344deg 0% 90%) 3%,
+  hsl(344deg 0% 80%) 7%,
+  hsl(344deg 0% 70%) 13%,
+  hsl(0deg 4% 61%) 22%,
+  hsl(359deg 16% 55%) 37%,
+  hsl(357deg 27% 47%) 57%,
+  hsl(354deg 46% 38%) 71%,
+  hsl(345deg 67% 30%) 80%,
+  hsl(335deg 75% 24%) 86%,
+  hsl(326deg 81% 18%) 91%,
+  hsl(315deg 82% 14%) 94%,
+  hsl(311deg 93% 11%) 96%,
+  hsl(312deg 100% 9%) 98%,
+  hsl(314deg 100% 8%) 99%,
+  hsl(0deg 0% 0%) 100%
+);
+	height:400px;
+}
+.textfoot{
+	height:300px;
+
+}
+.textfoot ul {
+	list-style: none;
+}
+.bold{
+	font-weight:600;
+	color:white;
+	text-decoration: none;}
+.textfoot h1{
+	padding:18px 30px;
+	color:white;}
+
+.textfoot ul li{
+	
+	padding:3px 30px;
+}
+.textfoot ul li a{
+	color:white;
+	text-decoration: none;
+	transition-duration:0.3s;
+	
+}
+.textfoot ul li:hover a{
+	font-size:24px;
+	padding: 30px 20px;
+	color:#FFC07A;
+}
+.logotext{
+	display:flex;
+}
+
+.logotext img{
+	width: 220px;
+}
+.mail{
+	height:125px;
+	border-bottom: 1px solid rgba(255,255,255,1.00);
+}
+.mail h1{
+	font-size:24px;
+	padding:18px 30px;
+	color:white;
+}
+.mail p{
+	padding:10px 30px;
+	color:white;}
+/*footer^^^^^^^^^^^*/
